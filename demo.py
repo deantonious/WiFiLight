@@ -1,6 +1,6 @@
 import ioled_lib, time
 
-strip = ioled.LedStrip("{IP_ADDRESS}", 2712)
+strip = ioled_lib.LedStrip("{IP_ADDRESS}", 2712)
 
 strip.sendRainbow(500, 0.3)
 
